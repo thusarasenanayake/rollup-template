@@ -1,0 +1,46 @@
+{
+  "name": "rollup-template",
+  "version": "1.0.1",
+  "description": "custom filtered country data",
+  "main": "./dist/bundle.umd.cjs",
+  "module": "./dist/bundle.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bundle.js",
+      "require": "./dist/bundle.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "private": "true",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thusarasenanayake/rollup-template.git"
+  },
+  "keywords": [],
+  "author": "Thusara Senanayake <89896736+thusarasenanayake@users.noreply.github.com> (http://thusarasenanayake.github.io)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-commonjs": "25.0.2",
+    "@rollup/plugin-json": "6.0.0",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@rollup/plugin-terser": "0.4.3",
+    "@rollup/plugin-typescript": "11.1.2",
+    "@typescript-eslint/eslint-plugin": "5.60.1",
+    "@typescript-eslint/parser": "5.59.1",
+    "eslint": "8.44.0",
+    "rollup": "3.23.0",
+    "terser": "5.18.2",
+    "typescript": "5.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/thusarasenanayake/rollup-template/issues"
+  },
+  "homepage": "https://github.com/thusarasenanayake/rollup-template#readme"
+}
